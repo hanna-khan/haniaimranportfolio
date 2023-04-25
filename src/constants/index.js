@@ -33,6 +33,7 @@ import {
   ecom,
   apple,
   weather,
+  certificate1,
   portfolio,
   store,
   tictactoe,
@@ -132,7 +133,7 @@ const experiences = [
     company_name: "Starbucks",
     icon: web,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    // date: "March 2020 - April 2021",
     points: [
       "👨‍💻 As a React JS developer, I've gained extensive experience building numerous projects with Redux, Next JS, and React JS. My proficiency in these frameworks has allowed me to develop scalable, high-performance applications that meet user requirements efficiently. 🚀",
     ],
@@ -142,7 +143,7 @@ const experiences = [
     company_name: "Tesla",
     icon: mobile,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    // date: "Jan 2021 - Feb 2022",
     points: [
       "🎨🌐 As a web designer, I've tackled numerous challenges creating stunning websites and landing pages using HTML, CSS, Tailwind, and Bootstrap. 💻🚀 My passion for design and web development drives me to exceed expectations and deliver exceptional results.👨‍💻",
     ],
@@ -152,7 +153,7 @@ const experiences = [
     company_name: "Shopify",
     icon: creator,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    // date: "Jan 2022 - Jan 2023",
     points: [
       "As a web developer, I have extensive experience creating numerous projects, games, and clones using HTML, CSS, JS, Tailwind, and Bootstrap. My skills in front-end development allow me to build responsive and user-friendly websites that exceed client expectations. 🌟",
     ],
@@ -171,6 +172,53 @@ const experiences = [
   // },
 ];
 
+const courses = [
+  {
+    title: "Certificate Of participation",
+    company_name: "DevTown",
+    icon: web,
+    iconBg: "#383E56",
+    image: certificate1,
+
+    date: "April 2023",
+    points: [
+      "🎓 Excited to share I received a DevTown certificate for completing their 7-day bootcamp on frontend web development using JavaScript and React JS 🚀 with Shaurya Sinha 👨‍🏫. Learned valuable skills for dynamic web page building. Grateful for this opportunity💻🌐",
+    ],
+  },
+  {
+    title: "Certificate Of Appreciation",
+    company_name: "Tesla",
+    icon: mobile,
+    iconBg: "#E6DEDD",
+    image: certificate1,
+    date: "April 2023",
+    points: [
+      "🎉 Honored to receive a Certificate of Appreciation from DevTown for contributing to their community 🤝🌟. Grateful for the connections and knowledge gained. Excited for future contributions 🚀",
+    ],
+  },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: creator,
+  //   iconBg: "#383E56",
+  //   // date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "As a web developer, I have extensive experience creating numerous projects, games, and clones using HTML, CSS, JS, Tailwind, and Bootstrap. My skills in front-end development allow me to build responsive and user-friendly websites that exceed client expectations. 🌟",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: backend,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Maintaining web applications using React.js and other related technologies. This includes creating new features, fixing bugs, and improving the overall performance of the application.",
+  //     "Ensure that the web application is responsive and looks great on all devices. This includes testing the application on different screen sizes and making necessary adjustments to ensure that the application is easy to use and navigate.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //   ],
+  // },
+];
 const projects = [
   {
     name: "Ecommerce Store",
@@ -366,4 +414,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, courses, projects };
